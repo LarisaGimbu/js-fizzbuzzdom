@@ -15,16 +15,15 @@ for (let i = 1; i <= 100; i++){
   row.append(box);
   box.innerHTML = i;
   
-  if(!(i % 3)){
-    box.classList.add('green');
-    box.innerHTML = 'fizz';
-  }else if(!(i % 5)){
-    box.classList.add('yellow');
-    box.innerHTML = 'buzz';
-  }
   if(!(i % 3) && !(i % 5)){
     box.classList.add('red');
     box.innerHTML = 'fizzbuzz';
+  } else if(!(i % 3)){
+    box.classList.add('green');
+    box.innerHTML = 'fizz';
+  } else if(!(i % 5)){
+    box.classList.add('yellow');
+    box.innerHTML = 'buzz';
   }
   
 
