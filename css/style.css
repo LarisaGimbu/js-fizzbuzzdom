@@ -1,0 +1,26 @@
+body{
+  background-color: #083B4C;
+}
+h1{
+  font-weight: bold;
+  font-size: 60px;
+  color: white;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin: 13px;
+  background-color: #1389B2;
+}
+.green{
+  background-color: #0BD6A1;
+}
+.yellow{
+  background-color: #FFD166;
+}
+.red{
+  background-color: #F0466F;
+}

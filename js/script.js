@@ -1,0 +1,8 @@
+//Scrivi un programma che esegua un ciclo da 1 a 100 e a ogni iterazione appenda un elemento html al container con uno stile differente a seconda del valore dell’indice per i multipli di 3, per i multipli di 5 e per i valori che sono sia multipli di 3 che di 5.
+
+//1 - variabile row
+//2 - creare il ciclo da 1 a 100
+//3 - variabile box -> dentro il ciclo
+//se -> !(i % 3) allora green
+//invece se -> !(i % 5) allora yellow
+//se (!(i % 3) && !(i % 5)) allora red
